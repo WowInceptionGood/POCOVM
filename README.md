@@ -1,2 +1,2 @@
-# POCOVM
-Poco allows you to manage Docker containers with Linux
+# POCO
+POCO allows you to manage Docker containers with Linux. 
