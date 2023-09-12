@@ -3,11 +3,12 @@ import os
 import math
 
 def cdi(arg,image,arg2):
-	os.system("docker run"+arg+image+arg2)
+	os.system("docker run "+arg+" "+image+" "+arg2)
 
 def test():
 	print("Hello world!")
 
 def setupworkapt():
 	os.system("apt-get install docker.io")
+	os.system("apt-get install docker")
 

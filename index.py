@@ -25,5 +25,5 @@ if (pick == "2"):
 	print("3. RHEL/Fedora")
 	pick3 = input()
 	if (pick3 == "1"):
-		pocolib.cdi(" -it --privileged", " ubuntu", " ")
+		pocolib.cdi("-it --privileged", "ubuntu", "")
 
